@@ -7,7 +7,7 @@
 import styled from 'styled-components';
 
 const SocialWrapper = styled.div`
-  margin-right: 1em;
+  margin-right: 2em;
 
   &:hover {
     opacity: 0.2;

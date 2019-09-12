@@ -8,7 +8,7 @@ import styled from 'styled-components';
 import PRIMARY_GREY from '../../../utils/colors';
 
 const Textarea = styled.textarea`
-  background: ${PRIMARY_GREY};
+  background-color: #f7f7f7;
   border-radius: 0.35em;
   border: 2px solid transparent;
   display: block;
