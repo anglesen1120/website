@@ -618,6 +618,32 @@ html {
   pre tt:after {
     content: "";
   }
+
+  button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+
+    background: transparent;
+
+    color: inherit;
+    font: inherit;
+
+    line-height: normal;
+
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+
+    -webkit-appearance: none;
+}
+
+&::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
   @media only screen and (max-width: 480px) {
     html {
       font-size: 100%;

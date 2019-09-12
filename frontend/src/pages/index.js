@@ -6,19 +6,19 @@ import Image from '../components/image';
 import SEO from '../components/SEO/SEO';
 import GlobalStyle from '../components/global-styles';
 import Form from '../components/Form';
+import Social from '../components/Social';
+import Paragraph from '../components/Paragraph';
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
 
+    <Social />
+    <Paragraph>
+      Shoot me a mail and I'll make sure to get back to you within 24h.
+    </Paragraph>
     <Form />
 
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
     <Link to="/page-2/">Go to page 2</Link>
 
     <GlobalStyle />
