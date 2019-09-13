@@ -5,6 +5,7 @@
  */
 
 import styled from 'styled-components';
+import { media } from '../../../utils';
 
 const Input = styled.input`
   background-color: #f7f7f7;
@@ -20,6 +21,19 @@ const Input = styled.input`
   &:focus {
     border: 2px solid #000;
   }
+
+  ::placeholder,
+  ::-webkit-input-placeholder {
+    opacity: 0.3;
+  }
+  :-ms-input-placeholder {
+    opacity: 0.3;
+  }
+
+  ${media.desktop`
+    height: 3.35em;
+    font-size: 13pt;
+  `}
 `;
 
 export default Input;

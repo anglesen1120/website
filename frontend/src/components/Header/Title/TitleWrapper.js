@@ -13,8 +13,8 @@ const TitleWrapper = styled.div`
   ${media.desktop`
     position: absolute;
     padding: 0;
-    top: 145px;
-    right: 100px;
+    top: 190px;
+    right: 115px;
     display: inline-block;
     text-align: right;
   `}

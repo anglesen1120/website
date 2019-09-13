@@ -16,6 +16,7 @@ const Button = styled.button`
   width: 100%;
   height: 44px;
   font-size: 11pt;
+  color: #000;
 
   &:hover {
     border: 2px solid #000;
@@ -24,6 +25,12 @@ const Button = styled.button`
 
   ${media.tablet`
     width: 150px;
+  `}
+
+  ${media.desktop`
+    height: 3.15em;
+    font-size: 14pt;
+    width: 180px;
   `}
 `;
 

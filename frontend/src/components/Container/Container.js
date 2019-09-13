@@ -10,8 +10,8 @@ import { media } from '../../utils';
 const Container = styled.div`
   ${media.desktop`
     position: absolute;
-    top: 145px;
-    left: 100px;
+    top: 180px;
+    left: 115px;
   `}
 `;
 

@@ -16,6 +16,10 @@ const FormWrapper = styled.form`
   ${media.tablet`
     width: 66.6%;
   `}
+
+  ${media.desktop`
+    width: 90%;
+  `}
 `;
 
 export default FormWrapper;
