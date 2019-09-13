@@ -16,8 +16,8 @@ const H1 = styled.h1`
   font-weight: bold;
 
   ${media.tablet`
-  font-size: 1.35em;
-`}
+    font-size: 1.35em;
+  `}
 
   ${media.desktop`
     font-size: 1.5em;
