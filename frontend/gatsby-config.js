@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Adrian Pietrzak`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Adrian Pietrzak | Software Developer`,
+    description: `Adrian Pietrzak is a Full Stack JavaScript Developer who focuses on programming graphical user interfaces and scalable web applications.`,
     author: `@pietrzakadrian`,
   },
   plugins: [
@@ -19,8 +19,5 @@ module.exports = {
         // Add any options here
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 };
