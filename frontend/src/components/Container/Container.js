@@ -11,7 +11,8 @@ const Container = styled.div`
   ${media.desktop`
     position: absolute;
     top: 180px;
-    left: 115px;
+    left: 65px;
+    max-width: 600px;
   `}
 `;
 

@@ -19,7 +19,7 @@ const Input = styled.input`
   font-size: 11pt;
 
   &:focus {
-    border: 2px solid #000;
+    border: 2px solid #999;
   }
 
   ::placeholder,
@@ -29,6 +29,10 @@ const Input = styled.input`
   :-ms-input-placeholder {
     opacity: 0.3;
   }
+
+  ${media.tablet`
+    font-size: 13pt;
+  `}
 
   ${media.desktop`
     height: 3.35em;

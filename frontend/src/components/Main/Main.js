@@ -18,6 +18,7 @@ const Main = styled.main`
     width: 50%;
     height: auto;
     position: relative;
+    padding: 0;
   `}
 `;
 

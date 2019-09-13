@@ -17,10 +17,11 @@ const Button = styled.button`
   height: 44px;
   font-size: 11pt;
   color: #000;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
 
   &:hover {
-    border: 2px solid #000;
-    transition: opacity 0.2s ease-in-out;
+    border-color: #999;
   }
 
   ${media.tablet`
