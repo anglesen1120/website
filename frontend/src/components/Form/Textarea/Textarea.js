@@ -10,7 +10,7 @@ import { media } from '../../../utils';
 const Textarea = styled.textarea`
   background-color: #f7f7f7;
   border-radius: 0.35em;
-  border: 2px solid transparent;
+  border: 2px solid ${props => (props.error ? 'red' : 'transparent')};
   display: block;
   outline: 0;
   width: 100%;
