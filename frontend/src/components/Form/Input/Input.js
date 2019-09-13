@@ -5,7 +5,6 @@
  */
 
 import styled from 'styled-components';
-import PRIMARY_GREY from '../../../utils/colors';
 
 const Input = styled.input`
   background-color: #f7f7f7;
@@ -16,6 +15,7 @@ const Input = styled.input`
   width: 100%;
   height: 2.75em;
   padding: 0 0.75em;
+  font-size: 11pt;
 
   &:focus {
     border: 2px solid #000;

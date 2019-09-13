@@ -5,7 +5,6 @@
  */
 
 import styled from 'styled-components';
-import PRIMARY_GREY from '../../../utils/colors';
 
 const Textarea = styled.textarea`
   background-color: #f7f7f7;
@@ -14,8 +13,9 @@ const Textarea = styled.textarea`
   display: block;
   outline: 0;
   width: 100%;
-  height: 5.75em;
+  height: 7.75em;
   padding: 0.5em 0.75em;
+  font-size: 11pt;
 
   &:focus {
     border: 2px solid #000;

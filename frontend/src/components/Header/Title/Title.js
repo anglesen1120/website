@@ -5,10 +5,8 @@ import TitleWrapper from './TitleWrapper';
 
 const Title = () => (
   <TitleWrapper>
-    <H2>
-      <strong>Adrian Pietrzak</strong>
-    </H2>
-    <H1>Designer & Entrepreneur</H1>
+    <H2>Adrian Pietrzak</H2>
+    <H1>Software developer</H1>
   </TitleWrapper>
 );
 

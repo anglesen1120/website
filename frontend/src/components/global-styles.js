@@ -2,15 +2,35 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
 html {
-    font-family: sans-serif;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
   }
   body {
+    color: #a2a2a2;
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: normal;
+    word-wrap: break-word;
+    font-kerning: normal;
+    -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+    -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+    -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+    font-feature-settings: "kern", "liga", "clig", "calt";
   }
+
+  @font-face {
+    font-family: "Aovel Neo";
+    src: url("aOVELNeo_r.eot?") format("eot"),
+      url("../assets/fonts/aOVELNeo_r.woff") format("woff"),
+      url("../assets/fonts/aOVELNeo_r.ttf") format("truetype"),
+      url("../assets/fonts/aOVELNeo_r.svg#AovelNeo") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+
   article,
   aside,
   details,
@@ -201,17 +221,6 @@ html {
   *:after {
     box-sizing: inherit;
   }
-  body {
-    color: hsla(0, 0%, 0%, 0.8);
-    font-family: georgia, serif;
-    font-weight: normal;
-    word-wrap: break-word;
-    font-kerning: normal;
-    -moz-font-feature-settings: "kern", "liga", "clig", "calt";
-    -ms-font-feature-settings: "kern", "liga", "clig", "calt";
-    -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
-    font-feature-settings: "kern", "liga", "clig", "calt";
-  }
   img {
     max-width: 100%;
     margin-left: 0;
@@ -231,7 +240,7 @@ html {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 1.45rem;
+    margin-bottom: 0;
     color: inherit;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
       Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -248,7 +257,7 @@ html {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 1.45rem;
+    margin-bottom: 0;
     color: inherit;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
       Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -639,10 +648,10 @@ html {
     -webkit-appearance: none;
 }
 
-&::-moz-focus-inner {
+  &::-moz-focus-inner {
     border: 0;
     padding: 0;
-}
+  }
 
   @media only screen and (max-width: 480px) {
     html {

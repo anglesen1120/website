@@ -1,9 +1,10 @@
 import React from 'react';
 import SocialContainer from './SocialContainer';
-import links from '../../utils/links';
 import facebook from '../../assets/images/facebook.svg';
 import linkedin from '../../assets/images/linkedin.svg';
 import github from '../../assets/images/github.svg';
+
+import { links } from '../../utils';
 
 import ImageWrapper from './ImageWrapper';
 import SocialWrapper from './SocialWrapper';

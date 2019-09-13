@@ -7,20 +7,26 @@ import Social from '../components/Social';
 import Paragraph from '../components/Paragraph';
 import Header from '../components/Header';
 import Main from '../components/Main';
+import Layout from '../components/Layout';
+import Container from '../components/Container';
 
 const IndexPage = () => (
   <>
     <SEO title="Home" />
 
-    <Header />
+    <Layout>
+      <Header />
 
-    <Main>
-      <Social />
-      <Paragraph>
-        Shoot me a mail and I'll make sure to get back to you within 24h.
-      </Paragraph>
-      <Form />
-    </Main>
+      <Main>
+        <Container>
+          <Social />
+          <Paragraph>
+            Shoot me a mail and I'll make sure to get back to you within 24h.
+          </Paragraph>
+          <Form />
+        </Container>
+      </Main>
+    </Layout>
 
     <GlobalStyle />
   </>
