@@ -13,6 +13,7 @@ import Container from '../components/Container';
 const IndexPage = () => (
   <>
     <SEO title="Home" />
+    <GlobalStyle />
 
     <Layout>
       <Header />
@@ -27,8 +28,6 @@ const IndexPage = () => (
         </Container>
       </Main>
     </Layout>
-
-    <GlobalStyle />
   </>
 );
 

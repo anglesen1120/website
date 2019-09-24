@@ -1,6 +1,20 @@
 import { createGlobalStyle } from 'styled-components';
+import {
+  aOVELNeo_rEOT,
+  aOVELNeo_rSVG,
+  aOVELNeo_rTTF,
+  aOVELNeo_rWOFF,
+} from '../assets/fonts';
 
 const GlobalStyle = createGlobalStyle`
+
+@font-face {
+  font-family: 'Aovel Neo';
+  font-weight: normal;
+  font-style: normal;
+  src: local("Aovel Neo"), local("Aovel Neo"), url(${aOVELNeo_rTTF}) format("ttf"), url(${aOVELNeo_rWOFF}) format("woff"), url(${aOVELNeo_rSVG}) format("svg"),  url(${aOVELNeo_rEOT}) format("eot");
+}
+
 html {
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     -ms-text-size-adjust: 100%;
@@ -19,16 +33,6 @@ html {
     -ms-font-feature-settings: "kern", "liga", "clig", "calt";
     -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
     font-feature-settings: "kern", "liga", "clig", "calt";
-  }
-
-  @font-face {
-    font-family: "Aovel Neo";
-    src: url("aOVELNeo_r.eot?") format("eot"),
-      url("../assets/fonts/aOVELNeo_r.woff") format("woff"),
-      url("../assets/fonts/aOVELNeo_r.ttf") format("truetype"),
-      url("../assets/fonts/aOVELNeo_r.svg#AovelNeo") format("svg");
-    font-weight: normal;
-    font-style: normal;
   }
 
   article,
